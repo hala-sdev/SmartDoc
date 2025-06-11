@@ -28,7 +28,6 @@ def summarize_text(text):
     return " ".join(summarized_text)
   
 
-print(summarize_text(text))
 
 
 
