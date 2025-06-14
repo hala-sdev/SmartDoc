@@ -1,6 +1,6 @@
 # 📄 SmartDoc: Your AI-Powered Document Assistant
 
-SmartDoc is a user-friendly Streamlit web app that helps you interact intelligently with PDF documents. It allows you to extract text, translate it into Arabic, summarize content, and even ask AI-powered questions — all from your browser.
+SmartDoc is a user-friendly Streamlit web app that helps you interact with PDF documents and apply several functions to them. It allows you to extract text, translate it into Arabic, summarize content, and even ask AI-powered questions related to your document.
 
 ## Features
 
