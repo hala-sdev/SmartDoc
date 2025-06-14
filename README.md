@@ -2,7 +2,7 @@
 
 SmartDoc is a user-friendly Streamlit web app that helps you interact intelligently with PDF documents. It allows you to extract text, translate it into Arabic, summarize content, and even ask AI-powered questions — all from your browser.
 
-## 🚀 Features
+## Features
 
 - 📄 **Upload PDFs** and extract clean, readable text
 - 🌍 **Translate** document text from English to Arabic
@@ -10,7 +10,20 @@ SmartDoc is a user-friendly Streamlit web app that helps you interact intelligen
 - 💬 **Ask questions** and get answers from your uploaded content
 - 📅 **Download** extracted, translated, or summarized text
 
-## 🛠️ Tech Stack
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="assets/main.png" width="400"/></td>
+    <td><img src="assets/translate.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="assets/QA.png" width="400"/></td>
+    <td><img src="assets/summary.png" width="400"/></td>
+  </tr>
+</table>
+
+## Tech Stack
 
 - [Python](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
@@ -46,38 +59,20 @@ Make sure you have:
 - Python 3.7+
 - Internet connection (for model downloads and API calls)
 
-## 💡 Example Use Cases
+## Example Use Cases
 
 - Reading and summarizing academic papers
 - Translating research reports
 - Interacting with legal documents
 - Getting answers from long policy files
 
-## 🧠 Models Used
+## Models Used
 
 - **Question Answering**: `distilbert-base-uncased-distilled-squad`
 - **Summarization**: `sshleifer/distilbart-cnn-12-6`
 - **Translation**: Google Translate API via `googletrans`
 
 
-## ✨ Screenshots
-
-<table>
-  <tr>
-    <td><img src="assets/main" width="400"/></td>
-    <td><img src="assets/translate" width="400"/></td>
-  </tr>
-  <tr>
-    <td><img src="assets/Q&A" width="400"/></td>
-    <td><img src="assets/summary.png" width="400"/></td>
-  </tr>
-</table>
-
-## 📝 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
 
 
 
