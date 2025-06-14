@@ -4,7 +4,7 @@ import re
 def extract_text(path):
     text = []
     clean_text = []
-    doc = fitz.open(path)
+    doc = fitz.open(stream=path.read(), filetype="pdf")
 
     for p in doc:
         doc_txt = p.get_text()
